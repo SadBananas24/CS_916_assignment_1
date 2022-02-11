@@ -1,0 +1,89 @@
+
+
+.shop-product-title{
+    padding-bottom: 0.2em;
+    padding-top: 0.8em;
+    font-weight:bolder;
+    font-size: 2rem;
+}
+
+.shop-product-price{
+    font-weight: bold;
+}
+
+.shop-product-units{
+    font-style: italic;
+    font-size: 60%;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.adjustDown{
+    border-color: #000000;
+}
+
+.adjustUp{
+    border-color: #000000;
+}
+
+#myBtn {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(146, 0, 97);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.contactmodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+.contactmodal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}
+  
+  /* The Close Button */
+.contactclose {
+color: #aaaaaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.contactclose:hover,
+.contactclose:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
